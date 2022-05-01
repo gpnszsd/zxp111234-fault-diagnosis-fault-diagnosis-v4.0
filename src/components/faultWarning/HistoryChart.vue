@@ -120,7 +120,7 @@
               }
             };
           }
-          console.log('this.startTimeSelect',this.startTimeSelect);
+          // console.log('this.startTimeSelect',this.startTimeSelect);
           console.log('this.endTimeSelect',this.endTimeSelect);
           return queryHistoryRawValueByUri(param);
         },
