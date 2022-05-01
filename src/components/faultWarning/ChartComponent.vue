@@ -49,7 +49,8 @@ export default {
           num: 1
         }
         getPrediction(param).then(res => {
-          // console.log(res)
+          console.log(res)
+          console.log("hot-fix commit1")
           this.addChartData(res.data)
         })
       }
