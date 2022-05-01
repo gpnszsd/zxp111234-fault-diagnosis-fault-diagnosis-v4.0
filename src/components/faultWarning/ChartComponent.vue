@@ -49,7 +49,7 @@ export default {
           num: 1
         }
         getPrediction(param).then(res => {
-          console.log(res)
+          // console.log(res)
           this.addChartData(res.data)
         })
       }
